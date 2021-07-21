@@ -31,8 +31,8 @@ class videosModels {
         const erros = validacoes.filter(campo => !campo.valido)
 
         const existemErros = erros.length
-
-            if(existemErros) {
+        console.log(existemErros);
+            if(!existemErros) {
 
                 res.status(400).json(erros)
 
