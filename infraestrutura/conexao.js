@@ -13,7 +13,7 @@ const conexao = mysql.createConnection ({
     port: '3306',
     user: 'easyweb',
     password: '1q2wS3251',
-    database: 'easyweb'
+    database: 'easyweb' 
 }); 
 
 
