@@ -14,7 +14,7 @@ const conexao = mysql.createConnection ({
     user: 'easyweb',
     password: '1q2wS3251',
     database: 'easyweb'
-});
+}); 
 
 
 
