@@ -9,11 +9,11 @@ const mysql = require('mysql');
 });*/
 
 const conexao = mysql.createConnection ({
-    host: 'www.easyweb.dev.br',
+    host: 'mysql.easyweb.dev.br',
     port: '3306',
-    user: 'easywe34_alurafl',
-    password: '123mudar!@',
-    database: 'easywe34_aluraflix'
+    user: 'easyweb',
+    password: '1q2wS3251',
+    database: 'easyweb'
 });
 
 
