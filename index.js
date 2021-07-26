@@ -1,7 +1,7 @@
-const customExpress = require('./config/customExpress');
-const conexao = require('./infraestrutura/conexao');
-const tabelas = require('./infraestrutura/tabelas');
-const nextjs = require('nextjs');
+const customExpress = require('config/customExpress');
+const conexao = require('infraestrutura/conexao');
+const tabelas = require('infraestrutura/tabelas');
+
 
 conexao.connect(erro => {
     if(erro){
@@ -17,4 +17,4 @@ conexao.connect(erro => {
     }
     
 })
-
+ 

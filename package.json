@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,13 +23,11 @@
   },
   "homepage": "https://github.com/zeleandroxavier/aluraflix-backend#readme",
   "dependencies": {
-    "next": "latest",
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",
     "express": "^4.17.1",
     "moment": "^2.29.1",
-    "mysql": "^2.18.1",
-    "nextjs": "^0.0.3"
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
