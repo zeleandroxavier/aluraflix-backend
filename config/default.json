@@ -1,0 +1,13 @@
+{
+    "mysql" : {
+        "banco-de-dados" : "aluraflix-bd",
+        "usuario" : "root",
+        "senha": "Jas1584Desc!@",
+        "host": "localhost",
+        "porta" : "3306"
+    },
+
+    "api" : {
+        "porta" : 3000
+    }
+}

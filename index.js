@@ -1,6 +1,8 @@
 const customExpress = require('./config/customExpress');
 const conexao = require('./infraestrutura/conexao');
 const tabelas = require('./infraestrutura/tabelas');
+const config = require('config');
+const dotenv = require('dotenv');
 
 conexao.connect(erro => {
     if(erro){
@@ -11,7 +13,7 @@ conexao.connect(erro => {
         tabelas.init(conexao);
         const app = customExpress();
 
-        app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
+        app.listen(process.env.port, () => console.log('Servidor rodando na porta 3000'));
         
     }
     
